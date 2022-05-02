@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/tanjashop/static/css/main.676c0673.css",
-    "main.js": "/tanjashop/static/js/main.99a9a598.js",
+    "main.js": "/tanjashop/static/js/main.0b077f38.js",
     "static/js/787.caa95da1.chunk.js": "/tanjashop/static/js/787.caa95da1.chunk.js",
     "static/media/Logo-2.png": "/tanjashop/static/media/Logo-2.3f227664b3ce56e8fcde.png",
     "index.html": "/tanjashop/index.html",
     "main.676c0673.css.map": "/tanjashop/static/css/main.676c0673.css.map",
-    "main.99a9a598.js.map": "/tanjashop/static/js/main.99a9a598.js.map",
+    "main.0b077f38.js.map": "/tanjashop/static/js/main.0b077f38.js.map",
     "787.caa95da1.chunk.js.map": "/tanjashop/static/js/787.caa95da1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.676c0673.css",
-    "static/js/main.99a9a598.js"
+    "static/js/main.0b077f38.js"
   ]
 }
