@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-// import Layout from "./components/Layout";
 import { BrowserRouter } from "react-router-dom";
 import "./sass/index.scss";
 import App from "./App";
@@ -10,7 +9,6 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <App />
-      {/* <Layout /> */}
     </BrowserRouter>
   </React.StrictMode>
 );

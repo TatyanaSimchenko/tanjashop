@@ -1,27 +1,26 @@
-// import React from 'react';
-// import { NavLink } from 'react-router-dom';
-
-// import Header from "./Header";
-// import Footer from "./Footer";
-
-
-// const Layout = () => {
-//   return (
-//     <>
-//     <Header />
-//     <div className="container">
-//       <div className="main">
-//       <NavLink to="/">Home</NavLink>
-//       <NavLink to="/catalog/:slug">Product</NavLink>
-//       <NavLink to="/catalog">Catalog</NavLink>
-//       <NavLink to="/cart">Cart</NavLink>
-//       </div>
-//     </div>
-//     <Footer />
-//     </>
-//   )
-// }
-
-// export {Layout}
+import React from "react";
+import { Link, Outlet } from "react-router-dom";
+import Footer from './Footer'
+import Header from "./Header";
 
 
+const Layout = () => {
+  return (
+    <div>
+      <header>
+        <Link to="/">Home</Link>
+        <Link to="/catalog">Products</Link>
+        <Link to="/catalog">Accessory</Link>
+        <Link to="/contacts">Contacts</Link>
+      </header>
+      <div className="main">
+      <Header />
+      <Outlet />
+      </div>
+     
+      <Footer />
+    </div>
+  );
+};
+
+export { Layout };

@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/images/Logo-2.png";
 import "../sass/index.scss";
 import { useRef, useEffect } from "react";
+
 const mainNav = [
   {
     display: "Home",
