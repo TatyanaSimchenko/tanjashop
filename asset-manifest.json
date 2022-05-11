@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/tanjashop/static/css/main.676c0673.css",
-    "main.js": "/tanjashop/static/js/main.0b077f38.js",
+    "main.css": "/tanjashop/static/css/main.9b0b0485.css",
+    "main.js": "/tanjashop/static/js/main.5c9e1a2e.js",
     "static/js/787.caa95da1.chunk.js": "/tanjashop/static/js/787.caa95da1.chunk.js",
+    "static/media/slide_3.png": "/tanjashop/static/media/slide_3.6e2ad4f2a2f8759c6360.png",
+    "static/media/slide_2.png": "/tanjashop/static/media/slide_2.a5d8646fd562e1727d9d.png",
+    "static/media/slide_1.png": "/tanjashop/static/media/slide_1.05395af1bce89e270797.png",
     "static/media/Logo-2.png": "/tanjashop/static/media/Logo-2.3f227664b3ce56e8fcde.png",
     "index.html": "/tanjashop/index.html",
-    "main.676c0673.css.map": "/tanjashop/static/css/main.676c0673.css.map",
-    "main.0b077f38.js.map": "/tanjashop/static/js/main.0b077f38.js.map",
+    "main.9b0b0485.css.map": "/tanjashop/static/css/main.9b0b0485.css.map",
+    "main.5c9e1a2e.js.map": "/tanjashop/static/js/main.5c9e1a2e.js.map",
     "787.caa95da1.chunk.js.map": "/tanjashop/static/js/787.caa95da1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.676c0673.css",
-    "static/js/main.0b077f38.js"
+    "static/css/main.9b0b0485.css",
+    "static/js/main.5c9e1a2e.js"
   ]
 }
