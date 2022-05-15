@@ -10,7 +10,7 @@ import policy from "../assets/fake-data/policy";
 import Grid from "../components/Grid";
 import productData from "../assets/fake-data/products";
 import ProductCard from "../components/ProductCard";
-// import productData from "../assets/fake-data/products";
+import banner from "../assets/images/banner.png";
 import "../sass/index.scss";
 const Home = () => {
   return (
@@ -29,9 +29,9 @@ const Home = () => {
         <SectionBody>
           <Grid col={4} mdCol={2} smCol={1} gap={20}>
             {policy.map((item, index) => (
-              <Link to="/policy">
+              <Link key={index} to="/policy">
                 <PolicyCard
-                  key={index}
+                  // key={index}
                   name={item.name}
                   description={item.description}
                   icon={item.icon}
@@ -54,7 +54,7 @@ const Home = () => {
                 img01={item.image01}
                 img02={item.image02}
                 name={item.title}
-                price={item.price}
+                price={Number(item.price)}
                 label={item.label}
 
                 // slug={item.slug}
@@ -64,6 +64,54 @@ const Home = () => {
         </SectionBody>
       </Section>
       {/* end best selling section */}
+      {/* new arrival section */}
+      <Section>
+        <SectionTitle>New products</SectionTitle>
+        <SectionBody>
+          <Grid col={4} mdCol={2} smCol={1} gap={20}>
+            {productData.getProducts(8).map((item, index) => (
+              <ProductCard
+                key={index}
+                img01={item.image01}
+                img02={item.image02}
+                name={item.title}
+                price={Number(item.price)}
+                label={item.label}
+              />
+            ))}
+          </Grid>
+        </SectionBody>
+      </Section>
+      {/* end new arrival section */}
+      {/* baner */}
+      <Section>
+        <SectionBody>
+          <Link to="/catalog">
+            <img src={banner} alt="img" />
+          </Link>
+        </SectionBody>
+      </Section>
+      {/* end baner */}
+      {/* popular products section */}
+      <Section>
+        <SectionTitle>Popular products</SectionTitle>
+        <SectionBody>
+          <Grid col={4} mdCol={2} smCol={1} gap={20}>
+            {productData.getProducts(12).map((item, index) => (
+              <ProductCard
+                key={index}
+                img01={item.image01}
+                img02={item.image02}
+                name={item.title}
+                price={Number(item.price)}
+                label={item.label}
+              />
+            ))}
+          </Grid>
+        </SectionBody>
+      </Section>
+      {/* end popular products section */}
+
     </Helmet>
   );
 };

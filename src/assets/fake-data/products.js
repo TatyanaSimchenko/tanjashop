@@ -76,7 +76,7 @@ import product_12_image_02 from '../images/products/product-12-02.jpg'
 const products = [
     {
         title: "Shirts Dinosaur 01",
-        price: '150$',
+        price: '150',
         image01: product_01_image_01,
         image02: product_01_image_02,
         categoryLabel: "shirts",
@@ -86,7 +86,7 @@ const products = [
     },
     {
         title: "Shirts Dinosaur 02",
-        price: '159$',
+        price: '159',
         image01: product_02_image_01,
         image02: product_02_image_02,
         categoryLabel: "shirts",
@@ -96,7 +96,7 @@ const products = [
     },
     {
         title: "Shirts Dinosaur 03",
-        price: '190$',
+        price: '190',
         image01: product_03_image_01,
         image02: product_03_image_02,
         categoryLabel: "shirts",
@@ -106,7 +106,7 @@ const products = [
     },
     {
         title: "Shirts Polo 04",
-        price: '150$',
+        price: '150',
         image01: product_04_image_01,
         image02: product_04_image_02,
         categoryLabel: "shirts",
@@ -116,7 +116,7 @@ const products = [
     },
     {
         title: "Shirts Polo 05",
-        price: '194$',
+        price: '194',
         image01: product_05_image_01,
         image02: product_05_image_02,
         categoryLabel: "shirts",
@@ -126,7 +126,7 @@ const products = [
     },
     {
         title: "Shirts Polo 06",
-        price: '194$',
+        price: '194',
         image01: product_06_image_01,
         image02: product_06_image_02,
         categoryLabel: "shirts",
@@ -136,7 +136,7 @@ const products = [
     },
     {
         title: "Long sleeve in a cage 07",
-        price: '150$',
+        price: '150',
         image01: product_07_image_01,
         image02: product_07_image_02,
         categoryLabel: "long-sleeve",
@@ -146,7 +146,7 @@ const products = [
     },
     {
         title: "Long sleeve shirt 08",
-        price: '194$',
+        price: '194',
         image01: product_08_image_01,
         image02: product_08_image_02,
         categoryLabel: "long-sleeve",
@@ -156,7 +156,7 @@ const products = [
     },
     {
         title: "Long sleeve shirt 09",
-        price: '194$',
+        price: '194',
         image01: product_09_image_01,
         image02: product_09_image_02,
         categoryLabel: "long-sleeve",
@@ -166,7 +166,7 @@ const products = [
     },
     {
         title: "Stylish jeans 10",
-        price: '150$',
+        price: '150',
         image01: product_10_image_01,
         image02: product_10_image_02,
         categoryLabel: "stylish-jeans",
@@ -176,7 +176,7 @@ const products = [
     },
     {
         title: "Jeans 11",
-        price: '194$',
+        price: '194',
         image01: product_11_image_01,
         image02: product_11_image_02,
         categoryLabel: "jeans",
@@ -186,7 +186,7 @@ const products = [
     },
     {
         title: "Jeans 12",
-        price: '194$',
+        price: '194',
         image01: product_12_image_01,
         image02: product_12_image_02,
         categoryLabel: "jeans",
@@ -196,7 +196,7 @@ const products = [
     },
     {
         title: "Shirts Dinosaur 13",
-        price: '150$',
+        price: '150',
         image01: product_01_image_01,
         image02: product_01_image_02,
         categoryLabel: "shirts",
@@ -206,7 +206,7 @@ const products = [
     },
     {
         title: "Shirts Dinosaur 14",
-        price: '150$',
+        price: '150',
         image01: product_02_image_01,
         image02: product_02_image_02,
         categoryLabel: "shirts",
@@ -216,7 +216,7 @@ const products = [
     },
     {
         title: "Shirts Dinosaur 15",
-        price: '150$',
+        price: '150',
         image01: product_03_image_01,
         image02: product_03_image_02,
         categoryLabel: "shirts",
@@ -226,7 +226,7 @@ const products = [
     },
     {
         title: "Long sleeve shirt 16",
-        price: '150$',
+        price: '150',
         image01: product_08_image_01,
         image02: product_08_image_02,
         categoryLabel: "long-sleeve",
@@ -236,7 +236,7 @@ const products = [
     },
     {
         title: "Long sleeve shirt 17",
-        price: '194$',
+        price: '194',
         image01: product_09_image_01,
         image02: product_09_image_02,
         categoryLabel: "long-sleeve",
@@ -246,7 +246,7 @@ const products = [
     },
     {
         title: "Stylish jeans 18",
-        price: '194$',
+        price: '194',
         image01: product_10_image_01,
         image02: product_10_image_02,
         categoryLabel: "stylish-jeans",
