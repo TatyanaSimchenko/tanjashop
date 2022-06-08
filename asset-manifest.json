@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tanjashop/static/css/main.bd57004f.css",
-    "main.js": "/tanjashop/static/js/main.58924475.js",
+    "main.css": "/tanjashop/static/css/main.bf6062d6.css",
+    "main.js": "/tanjashop/static/js/main.a321d4d5.js",
     "static/js/787.caa95da1.chunk.js": "/tanjashop/static/js/787.caa95da1.chunk.js",
     "static/media/slide_3.png": "/tanjashop/static/media/slide_3.6e2ad4f2a2f8759c6360.png",
     "static/media/slide_2.png": "/tanjashop/static/media/slide_2.a5d8646fd562e1727d9d.png",
@@ -33,12 +33,12 @@
     "static/media/product-10-02.jpg": "/tanjashop/static/media/product-10-02.4890e19f6ed59d80e25b.jpg",
     "static/media/Logo-2.png": "/tanjashop/static/media/Logo-2.3f227664b3ce56e8fcde.png",
     "index.html": "/tanjashop/index.html",
-    "main.bd57004f.css.map": "/tanjashop/static/css/main.bd57004f.css.map",
-    "main.58924475.js.map": "/tanjashop/static/js/main.58924475.js.map",
+    "main.bf6062d6.css.map": "/tanjashop/static/css/main.bf6062d6.css.map",
+    "main.a321d4d5.js.map": "/tanjashop/static/js/main.a321d4d5.js.map",
     "787.caa95da1.chunk.js.map": "/tanjashop/static/js/787.caa95da1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd57004f.css",
-    "static/js/main.58924475.js"
+    "static/css/main.bf6062d6.css",
+    "static/js/main.a321d4d5.js"
   ]
 }
