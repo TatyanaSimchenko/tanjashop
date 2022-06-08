@@ -6,6 +6,7 @@ import { Page404 } from "./pages/Page404";
 // import { Cart } from "./pages/Cart";
 import { Product } from "./pages/Product";
 import { Layout } from "./components/Layout";
+// import  ProductView  from "./components/ProductView"
 
 
 const App = () => {
@@ -21,7 +22,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="catalog" element={<Product />} />
+          <Route path="catalog/:label" element={<Product />} />
           <Route path="catalog" element={<Catalog />} />
           <Route path="*" element={<Page404 />} />
         </Route>
